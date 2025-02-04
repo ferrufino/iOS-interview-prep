@@ -1,0 +1,76 @@
+# Xcode
+.DS_Store
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+*.mode2v3
+!default.mode1v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.moved-aside
+DerivedData/
+.idea/
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+Packages/
+.swiftpm/
+*.xcodeproj/project.xcworkspace/
+
+# CocoaPods
+Pods/
+*.xcworkspace
+podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+fastlane/swiftlint/
+
+# Archives
+*.ipa
+*.xcarchive
+
+# Logs & Temporary Files
+*.log
+*.swp
+*.swo
+*.swm
+
+# Xcode Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Artifacts
+.build/
+SourcePackages/
+
+# Xcode automatically generated docs
+*.docc
+
+# Simulator Related
+CoreSimulator/
+*.simruntime
+*.simdevice
+
+# Environment & Configuration
+.env
+*.xcconfig
+
+# SwiftLint & SwiftFormat Caches
+.swiftlint.yml
+.swiftformat
+
+# Prevent submodule tracking (if applicable)
+**/.git/modules/*
+
+# Prevent tracking user schemes
+xcshareddata/
